@@ -43,68 +43,44 @@ const About = () => {
     <AboutContainer>
       <Container>
         <div>
-          Hola! I'm <Span>Vilva Athiban</Span>, the JS Jockey 👋. Fell in love❤️
-          with JavaScript and never broke up. I am passionate about building
-          tech products and devtools. I also love to <Span>teach technology to others
-          in depth</Span>. Creativity starts only when you can see the whole picture
-          and hence I conduct <Span>Advanced Workshops.</Span> Know more about it{" "}
-          <Span>
-            {" "}
-            <Link href="/workshop">here.</Link>
-          </Span>
+          Hello! I'm <Span>Santhosh Balakrishnan</Span>, JavaScript Developer. I am passionate 
+          about building tech products and explore new technoloies. I also love to <Span>teach 
+          technology to others in depth</Span>.
         </div>
       </Container>
       <Break />
       <Break />
       <Container>
         <div>
-          I am a <Span>FullStack JavaScript developer</Span>. I am from India,
-          living in Berlin. I am a electrical engineer by qualification and self
+          I am a <Span>JavaScript developer</Span>. I am from India,
+          living in Chennai. I am an electronics engineer by qualification and self
           taught programmer by profession. When not coding or attending meetings
-          at work, you can find me{" "}
-          <Span>travelling (countries so far: 🇮🇳🇩🇪🇵🇱🇦🇹🇧🇪🇩🇰🇮🇹🇻🇦🇨🇿)</Span>,
-          painting or watching movies.
+          at work, you can find me reading a fantasy novel or travelling around in my bicycle.
         </div>
         <ImageContainer>
-          <Image src="/about/21.jpeg" />
+          <Image src="/about/about1.jpg" />
         </ImageContainer>
       </Container>
       <Break />
       <Break />
       <Container>
-        <ImageContainer>
-          <Image src="/about/3.jpeg" />
+      <ImageContainer>
+          <Image src="/about/about2.jpg" />
         </ImageContainer>
-        <div>
-          I am also planning an <Span>International Flower</Span>. Curious? I
-          collect soil from every country/region I visit and when I cross 15
-          countries mark, I will seed a flower plant in it. And the flower that
-          blooms from the plant will become the first International plant.
-        </div>
-      </Container>
-      <Break />
-      <Break />
-      <Container>
         <div>
           When it comes to daily work, I play a lot with
           <Span>
-            JavaScript, React, Redux, GraphQL, Typescript and React Native
+            JavaScript, React, Redux, GraphQL and Typescript
           </Span>
-          . I have also worked with NodeJS (Hapi and Express). I built highly
-          scalable products for 5 years and for past 1 year I am building tools
+          . I have also worked with NodeJS (Express). I built highly
+          scalable products for 4 years and for past 1 year I am building tools
           and libraries that makes Developer life easier. Currently trying to
-          master Docker & Kubernetes.
+          master Docker & AWS Services.
         </div>
-        <ImageContainer>
-          <Image src="/about/4.jpeg" />
-        </ImageContainer>
       </Container>
       <Break />
       <Break />
       <Container>
-        <ImageContainer>
-          <Image src="/about/7.jpeg" />
-        </ImageContainer>
         <div>
           When it comes to <Span>Open Source</Span>, I have built few tools and
           contriubuted to few famous libraries. Few of the tools I built are,
@@ -117,44 +93,22 @@ const About = () => {
             <Link href="/projects">here.</Link>
           </Span>
         </div>
-      </Container>
-      <Break />
-      <Break />
-      <Container>
-        <div>
-          I am a regular tech speaker and I have spoken in
-          <Span>
-            {" "}
-            25+ International conference and meetups across 6 countries
-          </Span>
-          . Interested in my talks? checkout{" "}
-          <Span>
-            {" "}
-            <Link href="/talks">here.</Link>
-          </Span>
-        </div>
         <ImageContainer>
-          <Image src="/about/5.jpeg" />
+          <Image src="/about/about3.png" />
         </ImageContainer>
       </Container>
       <Break />
       <Break />
       <Container>
         <ImageContainer>
-          <Image src="/about/6.jpeg" />
+          <Image src="/about/about4.jpeg" />
         </ImageContainer>
         <div>
-          I am a seasonal blogger and Youtuber. You can checkout my articles
+          I am a seasonal blogger. You can checkout my articles
           <Span>
             {" "}
             <Link href="/blogs">here</Link>{" "}
           </Span>
-          and my videos
-          <Span>
-            {" "}
-            <Link href="/videos">here</Link>
-          </Span>
-          .
         </div>
       </Container>
     </AboutContainer>

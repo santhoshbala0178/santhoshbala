@@ -9,6 +9,7 @@ const HomeContainer = styled.div`
   .justify-center;
   .flex-col;
   .text-pwhite;
+  height: 70vh;
 `;
 const PhotoContainer = styled.div`
   .mt-4;
@@ -44,14 +45,12 @@ const Home = () => {
   return (
     <HomeContainer>
       <PhotoContainer>
-        <Photo src="/intro.jpg" alt="Vilva Athiban P B, The JS Jockey" />
+        <Photo src="/intro.jpeg" alt="Santhosh Balakrishnan" />
       </PhotoContainer>
       <Intro>
-        I am <Span>Vilva</Span>, a JavaScript developer, International tech
-        Speaker, Open Source Contributor, Seasonal Blogger and YouTuber.
+        I am <Span>Santhosh Balakrishnan</Span>, a JavaScript developer, Open Source Contributor and a Blogger.
         <br />
-        <br />I love building <Span>Products and Devtools</Span> and have a
-        passion to <Span>teach </Span>Web in depth
+        <br />I love building <Span>Products and exploring new technologies.</Span>
       </Intro>
     </HomeContainer>
   );

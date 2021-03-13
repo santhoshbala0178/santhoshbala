@@ -4,7 +4,6 @@ import Link from "next/link";
 const MenuItems = styled.div`
   .bg-pwhite;
   width: 100vw;
-  height: 100vh;
   overflow-y: scroll;
   .fixed;
   .top-0;
@@ -53,17 +52,8 @@ const SideMenu = ({ showMenu, closeMenu, path }) => {
           <Link href="/about">
             <Menu active={path=== '/about'}>About</Menu>
           </Link>
-          <Link href="/workshop">
-            <Menu active={path=== '/workshop'}>Workshops</Menu>
-          </Link>
-          <Link href="/talks">
-            <Menu active={path=== '/talks'}>Talks</Menu>
-          </Link>
           <Link href="/blogs">
             <Menu active={path=== '/blogs'}>Blogs</Menu>
-          </Link>
-          <Link href="/videos">
-            <Menu active={path=== '/videos'}>Videos</Menu>
           </Link>
           <Link href="/projects">
             <Menu active={path=== '/projects'}>Projects</Menu>

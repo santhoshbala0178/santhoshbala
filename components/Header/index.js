@@ -29,7 +29,7 @@ const MenuContainer = styled.div`
   .hidden;
   .lg: flex;
   .justify-between;
-  .w-7/12;
+  .w-3/12;
   .text-pwhite;
   font-size: 18px;
 `;
@@ -61,25 +61,18 @@ const Header = () => {
     <Container>
       <LogoContainer>
         <Link href="/">
-          <Logo src="/logo.png" alt="Vilva Athiban P B, The JS Jockey" />
+          <Logo src="/logo.png" alt="Santhosh B" />
         </Link>
-        <div>Vilva Athiban P B</div>
+        <Link href="/">
+        <div>Santhosh Balakrishnan</div>
+        </Link>
       </LogoContainer>
       <MenuContainer>
         <Link href="/about">
           <Menu active={router.pathname === "/about"}>About</Menu>
         </Link>
-        <Link href="/workshop">
-          <Menu active={router.pathname === "/workshop"}>Workshops</Menu>
-        </Link>
-        <Link href="/talks">
-          <Menu active={router.pathname === "/talks"}>Talks</Menu>
-        </Link>
         <Link href="/blogs">
           <Menu active={router.pathname === "/blogs"}>Blogs</Menu>
-        </Link>
-        <Link href="/videos">
-          <Menu active={router.pathname === "/videos"}>Videos</Menu>
         </Link>
         <Link href="/projects">
           <Menu active={router.pathname === "/projects"}>Projects</Menu>

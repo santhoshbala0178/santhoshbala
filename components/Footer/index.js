@@ -39,7 +39,7 @@ export default function Footer() {
       <IconContainer>
           {
               Object.keys(socials).map((key, i) => {
-                  return (<a key={i} href={socials[key]} target="_blank" rel="noopener noreferrer"><Icon src={`/social/${key}.svg`} alt={`Vilva's ${key} Account`} /></a>)
+                  return (<a key={i} href={socials[key]} target="_blank" rel="noopener noreferrer"><Icon src={`/social/${key}.svg`} alt={`Santhosh's ${key} Account`} /></a>)
               })
           }
       </IconContainer>
