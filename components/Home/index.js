@@ -9,7 +9,7 @@ const HomeContainer = styled.div`
   .justify-center;
   .flex-col;
   .text-pwhite;
-  height: 70vh;
+  height: 700px;
 `;
 const PhotoContainer = styled.div`
   .mt-4;

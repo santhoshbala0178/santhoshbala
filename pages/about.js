@@ -5,9 +5,7 @@ import About from "../components/About";
 import Footer from "../components/Footer";
 
 export const Container = styled.div`
-  .bg-plight;
   .min-h-screen;
-  .w-screen;
 `;
 
 export default function AboutPage() {
@@ -25,13 +23,13 @@ export default function AboutPage() {
         />
         <meta
           property="og:description"
-          content="Santhosh Balakrishnan is a Web expert who specialize in JavsScript. He is an active Open source developer"
+          content="Santhosh Balakrishnan is a Web expert who specialize in JavsScript. He is an active Open source contributor as well."
         />
         <meta property="og:type" content="portfolio" />
 
         <meta
           name="description"
-          content="Santhosh Balakrishnan is a Web expert who specialize in JavsScript. He is an active Open source developer"
+          content="Santhosh Balakrishnan is a Web expert who specialize in JavsScript. He is an active Open source contributor as well."
         />
         <meta
           name="keywords"

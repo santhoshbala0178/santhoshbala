@@ -22,7 +22,9 @@ const LogoContainer = styled.div`
   .text-pwhite;
 `;
 const Logo = styled.img`
-  height: 100px;
+height: 50px;
+width: 50px;
+margin-right: 5px;
 `;
 
 const MenuContainer = styled.div`

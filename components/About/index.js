@@ -1,6 +1,5 @@
 import styled from "styled-components";
 import Link from "next/link";
-import { socials } from "../../data/social";
 
 const AboutContainer = styled.div`
   .px-4;
@@ -68,26 +67,22 @@ const About = () => {
           <Image src="/about/about2.jpg" />
         </ImageContainer>
         <div>
-          When it comes to daily work, I play a lot with
+          When it comes to daily work, I play a lot with {" "}
           <Span>
             JavaScript, React, Redux, GraphQL and Typescript
           </Span>
-          . I have also worked with NodeJS (Express). I built highly
-          scalable products for 4 years and for past 1 year I am building tools
-          and libraries that makes Developer life easier. Currently trying to
-          master Docker & AWS Services.
+          .{"  "} I have built highly responsive and performant web 
+          applications for 4 years. I have also worked with NodeJS (Express). 
+          Currently trying to master Docker & AWS Services.
         </div>
       </Container>
       <Break />
       <Break />
       <Container>
         <div>
-          When it comes to <Span>Open Source</Span>, I have built few tools and
-          contriubuted to few famous libraries. Few of the tools I built are,
-          Styled-wind with babel plugin version, hql-tag and a Cli, A Storybook
-          addon listed on official Storybook docs, A VS code extension for
-          graphql-codegen. Currently building OSSPuppy - a Open source tool for
-          Open source developers. Check out my open source projects{" "}
+          When it comes to <Span>Open Source</Span>, I have built few tools such as
+          Styled-wind with babel plugin version, hql-tag and react-rating tool tip. 
+          Check out my open source projects{" "}
           <Span>
             {" "}
             <Link href="/projects">here.</Link>
@@ -104,7 +99,7 @@ const About = () => {
           <Image src="/about/about4.jpeg" />
         </ImageContainer>
         <div>
-          I am a seasonal blogger. You can checkout my articles
+          I have been writing a few blogs in my site. You can checkout my articles
           <Span>
             {" "}
             <Link href="/blogs">here</Link>{" "}

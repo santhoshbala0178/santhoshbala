@@ -2,7 +2,6 @@ import styled from "styled-components";
 import { socials } from "../../data/social";
 
 export const Intro = styled.div`
-  width: 100vw;
   .flex;
   .justify-center;
   .text-sdark;

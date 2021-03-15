@@ -1,7 +1,7 @@
 html,
 body {
   padding: 0;
-  background-color: #3AAFA8;
+  background-color: rgb(232, 151, 133);
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
@@ -14,4 +14,72 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+/*CSS for Blog posts*/
+
+h1 {
+  font-size: 50px;
+  margin-bottom: 17px;
+  color: #333;
+}
+h2 {
+  font-size: 24px;
+  line-height: 1.6;
+  margin: 30px 0 0 0;
+  margin-bottom: 18px;
+  margin-top: 33px;
+  color: #333;
+}
+h3 {
+  font-size: 30px;
+  margin: 10px 0 20px 0;
+  color: #333;
+}
+header {
+  width: 1000px;
+  margin: auto;
+}
+
+section {
+  margin: auto;
+}
+
+section p {
+  margin-bottom: 27px;
+  font-size: 20px;
+  line-height: 1.6;
+  color: #333;
+}
+section img {
+  max-width: 1000px;
+}
+footer {
+  padding: 0 20px;
+  margin: 50px 0;
+  text-align: center;
+  font-size: 12px;
+}
+.aspectRatioPlaceholder {
+  max-width: auto !important;
+  max-height: auto !important;
+}
+.aspectRatioPlaceholder-fill {
+  padding-bottom: 0 !important;
+}
+header,
+section[data-field="subtitle"],
+section[data-field="description"] {
+  display: none;
+}
+
+pre {
+  background: #cecbcb;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+article img {
+  width: 100%;
+  max-width: 1000px;
 }

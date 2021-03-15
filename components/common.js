@@ -8,3 +8,11 @@ export const ItemsContainer = styled.div`
   .justify-center;
   .pb-16;  
 `;
+
+export const BlogContainer = styled.div`
+ .bg-white;
+ border-radius: 10px;
+ margin: 10px;
+ margin-bottom:20px;
+ padding: 10px;
+`;

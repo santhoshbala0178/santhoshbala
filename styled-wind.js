@@ -3,9 +3,8 @@ module.exports = {
     extend: {
       colors: {
         pdark: "#17252A",
-        sdark: "#2b7a78",
-        plight: "#3aafa9",
-        slight: "#def2f1",
+        sdark: "#b34830",
+        plight: "rgb(232, 151, 133)",
         pwhite: "#feffff"
       }
     }
